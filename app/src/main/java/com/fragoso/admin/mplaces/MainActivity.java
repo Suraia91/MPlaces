@@ -141,4 +141,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
     public void onFragmentInteraction(Uri uri) {
 
     }
+    private void  Teste (){
+        int i=1+1;
+    }
 }
