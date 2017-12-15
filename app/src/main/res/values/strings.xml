@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MPlaces</string>
+    <string name="title_activity_mapa_pl">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="permission_loc_rationale" />
+    <string name="ok" />
+    <string name="squarecamera__start_image_capture">Take New Picture!</string>
+    <string name="squarecamera__capture_image">Snap It!</string>
+    <string name="squarecamera__save_image">Save</string>
+    <string name="squarecamera__cancel">Cancel</string>
+    <string name="squarecamera__swap_camera">Swap</string>
+    <string name="squarecamera__flash">Flash</string>
+    <string name="squarecamera__auto_flash">Auto Flash</string>
+    <string name="squarecamera__no_flash">No Flash</string>
+    <string name="squarecamera__recapture_image">Retake Picture</string>
+    <string name="squarecamera__capturing_image">Taking New Picture</string>
+    <string name="squarecamera__done">Done</string>
+    <string name="squarecamera__app_name">SquareCamera</string>
+    <string name="squarecamera__request_write_storage_permission_text">Approval is needed to save your photo on your device</string>
+    <string name="squarecamera__action_settings" />
+</resources>

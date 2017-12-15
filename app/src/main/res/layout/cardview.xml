@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="360dp"
+    android:layout_margin="8dp"
+    android:id="@+id/cv"
+
+    >
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar">
+
+    </include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/photos"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/foto" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+
+            android:background="#00BCD4"
+            android:id="@+id/relativeLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Texts"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvComentario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:textAllCaps="true"
+                    android:text="Descriçao"
+                    android:textColor="#fff"
+                    android:textSize="12sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:id="@+id/tvData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:drawableStart="@drawable/calendar_range"
+                    android:textAllCaps="true"
+                    android:text=" 14.12.2017"
+                    android:textColor="#fff"
+                    android:textSize="12sp"
+                    android:layout_alignParentRight="true"
+                    />
+                <TextView
+                    android:id="@+id/tvLocal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="36dp"
+                    android:drawableStart="@drawable/map_marker"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Local"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/tvComentario" />
+            </RelativeLayout>
+            <ImageButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gostar"
+                android:src="@drawable/heart"
+                android:layout_gravity="bottom|start"
+                android:padding="8dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_alignParentBottom="true"
+               />
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/tirarfoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/camera"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
